@@ -1,4 +1,4 @@
-const x = prompt("Write a wich is hour, i will conwert it into seconds");
+const x = prompt("Write a hour, i will conwert it into seconds");
 
 console.log(x);
 
