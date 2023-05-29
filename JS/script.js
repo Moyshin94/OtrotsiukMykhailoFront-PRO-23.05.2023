@@ -5,4 +5,4 @@ console.log(x);
 const y = x * 60;
 
 console.log(y);
-alert(y);
+alert(`in ${x} hours ${y} seconds`);
