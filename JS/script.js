@@ -70,8 +70,8 @@ if (yearOfBirth === null) {
       alert("It's a pity that you did not want to enter your favorite sport.");
     } else {
       // Calculate the user's age
-      let currentYear = new Date().getFullYear();
-      let age = currentYear - parseInt(yearOfBirth);
+      let currentYear = 2022;
+      let age = currentYear - yearOfBirth;
 
       // Construct the message based on the inputs
       let message = 'Your age: ' + age;
