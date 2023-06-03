@@ -70,7 +70,7 @@ if (yearOfBirth === null) {
       alert("It's a pity that you did not want to enter your favorite sport.");
     } else {
       // Calculate the user's age
-      let currentYear = 2022;
+      let currentYear = new Date().getFullYear();
       let age = currentYear - yearOfBirth;
 
       // Construct the message based on the inputs
@@ -87,7 +87,8 @@ if (yearOfBirth === null) {
         Tennis: 'Serena Williams',
       };
       if (favoriteSport in champions) {
-        message += 'Cool! Do you want to become ';
+        message +=
+          'Cool! Do you want to become ' + champions[favoriteSport] + '?';
       }
 
       // Display the information in an alert
@@ -98,11 +99,6 @@ if (yearOfBirth === null) {
 // END HM 4
 
 // HM 5
-// const firstName = prompt('What is your name?');
-
-// console.log(firstName);
-
-// alert(`Hello, ${firstName}! How are you?`);
 
 // END HM 5
 
